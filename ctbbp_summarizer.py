@@ -74,7 +74,7 @@ def write_speech_to_text(audio_files: list):
 
 def generate_prompt(video_title: str, video_length, video_desc: str, episode_text: str, url: str):
     prompt = f"""
-    I am provided text I transcribed from an episode of the critical thinking podcast. 
+    I am providing text I transcribed from an episode of the critical thinking podcast. 
     The podcast covers various aspects of bug bounty programs, including experiences of bug bounty hunters, strategies 
     for finding vulnerabilities, and the impact on cybersecurity. I'd like you to generate markdown using the below template 
     based on the podcast:
